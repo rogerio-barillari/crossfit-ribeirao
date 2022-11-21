@@ -1,0 +1,278 @@
+/* Fontes importadas */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+/* Seletores Gerais */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+h1,h2 {
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.container-fluid {
+    padding: 90px 0 90px 0;
+   }
+
+
+/* Início do header */
+
+/* Topbar */
+
+.top-bar {
+    background-color: white;
+}
+
+.top-bar i {
+    color: #01E343;
+}
+
+.whats {
+    display: flex;
+}
+
+.social {
+    display: flex;
+}
+
+.top-bar i {
+    padding-right: 5px;
+}
+
+#caixa-top-bar {
+    display: flex;
+    gap: 20px;
+}
+
+/* Nav */
+
+#navbar_top {
+    border-bottom: solid 1px #01e34552;
+}
+
+.logotipo {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #110F17;
+}
+
+.navbar-nav {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#main_nav a {
+    color: white;
+}
+
+#main_nav a:hover {
+    color: #01E343;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+/* Fim do header */
+
+/* Início da seção principal */
+
+#btn-principal {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+}
+
+#btn-principal:hover {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    background-color: #01E343 !important;
+    color: #110F17;
+    border: none;
+    transition-duration: 0.4s;
+    padding: 10px;
+}
+
+/* Fim da seção principal */
+
+/* Início da seção de benefícios */
+
+#beneficios-fundo {
+    background-color:#110F17;
+    padding: 25px;
+    height: 11rem;
+    border-radius: 10px;
+}
+
+#beneficios-fundo:hover {
+    background-color:#211f29;
+    padding: 25px;
+    height: 11rem;
+    border-radius: 10px;
+}
+
+/* Fim da seção de benefícios */
+
+/* Início da seção mitos e verdades */
+
+.accordion-item {
+    border: solid 1px #110F17 !important;
+}
+
+.accordion-item p {
+    font-weight: 600;
+}
+
+.accordion-header {
+    font-family: 'Nunito', sans-serif;
+}
+
+.accordion-body {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+}
+
+/* Fim da seção mitos e verdades */
+
+/* Início da seção modalidades */
+
+#aulas-fundo {
+    background-color: #110F17;
+    height: auto;
+    border-radius: 10px;
+}
+
+#aulas-fundo:hover {
+    background-color: #211f29;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Fim da seção modalidades */
+
+/* Início da seção planos */
+
+.card {
+    background-color: #161321;
+}
+
+.card:hover {
+    background-color: #0e0c15;
+}
+
+/* Fim da seção planos */
+
+/* Início do footer */
+
+.linha-footer {
+    padding-bottom: 30px;
+}
+
+.link-footer a {
+    text-decoration: none;
+    color: #211f29 !important;
+}
+
+.marcas-obrigatorias img {
+    max-width: 100px !important;
+}
+
+/* Fim do footer */
+
+/* Início do botão de WhatsApp */
+
+.btn-success {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+/* Fim do botão de WhatsApp */
+
+/* Início do botão de retorno ao topo */
+
+#btn-retorno {
+    text-decoration: none;
+    color: white;
+    background-color: #060509;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#btn-retorno:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #01E343;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition-duration: 00.4s;
+}
+
+/* Fim do botão de retorno ao topo */
+
+/* Início do modal de cookies */
+
+.lgpd {
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    background-color: #060509;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lgpd-left a {
+    color: white;
+}
+
+.lgpd button {
+    background-color: #01E343;
+    color: #060509;
+    border-radius: 6px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.lgpd button:hover {
+    background-color: #00ad34;
+    transition-duration: 00.4s;
+    font-weight: 600;
+    margin: 5px;
+}
+
+/* Fim do modal de cookies */
+
+

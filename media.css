@@ -1,0 +1,163 @@
+/* Responsividade */
+
+/* *Desktop* */
+@media (max-width: 992px) {
+
+/* Início do footer */
+
+/* .footer-mobile {
+   height: 400px;
+} */
+
+/* Fim do footer */
+
+}
+
+
+/* *Mobile* */
+@media (max-width: 600px) {
+
+   .container-fluid {
+      padding: 120px 25px 120px 25px !important;
+     }
+
+   /* Início da seção principal */
+   
+   #principal h1,h3 {
+      text-align: center !important;
+   }
+
+   #botao-principal {
+      justify-content: center;
+   }
+   
+   /* Fim da seção principal */
+
+    /* Início da seção benefícios */
+
+   #beneficios h2,h5 {
+      text-align: center !important;
+      padding: 0px !important;
+   }
+
+   .beneficios-descricao {
+      padding-right: 0px !important;
+   }
+
+   #beneficios p {
+      text-align: left !important;
+   }
+
+   #beneficios-coluna {
+      margin-top: 20px;
+   }
+
+   /* Fim da seção benefícios */
+
+   /* Início da seção modalidades */
+
+   #modalidades h2,h5,p {
+      text-align: center !important;
+   }
+
+   #beneficios-fundo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #beneficios-fundo p {
+      text-align: center !important;
+   }
+
+   /* Fim da seção modalidades */
+
+   /* Início da seção planos */
+
+   #planos h2,h5,p {
+      text-align: center !important;
+   }
+
+   #avulsos-planos {
+      margin-top: 20px;
+      align-items: center !important;
+   }
+
+   #avulsos-planos h5 {
+      margin-bottom: 20px !important;
+   }
+
+   /* Fim da seção planos */
+
+   /* Início da seção parceiros */
+
+   #parceiros img {
+      max-width: 160px;
+   }
+
+   /* Fim da seção parceiros */
+
+   /* Início do footer */
+
+   /* .footer-mobile {
+      height: 1200px !important;
+   } */
+
+   footer h5 {
+      margin-top: 35px;
+   }
+
+   .linha-footer {
+      padding-bottom: 0;
+   }
+
+   #icones-footer {
+      justify-content: center;
+      margin-bottom: 30px;
+   }
+
+   #coluna-links-uteis {
+      padding: 0 !important;
+   }
+
+   #links-uteis {
+      align-items: center;
+      margin: 0 auto;
+      margin-bottom: 30px;
+   }
+
+   .marcas-obrigatorias {
+      align-items: center;
+      margin-bottom: 50px;
+  }
+
+  .marcas-obrigatorias img {
+   max-width: 110px !important;
+}
+
+   /* Fim do footer */
+
+   /* Início da página de política de privacidade */
+
+   #privacidade {
+      text-align: center;
+   }
+
+   /* Fim da página de política de privacidade */
+
+   /* Início do modal de cookies */
+
+   .lgpd {
+      font-size: 13px;
+   }
+
+   .lgpd a {
+      text-decoration: none;
+      color: white;
+   }
+
+   /* Fim do modal de cookies */
+
+}
+
