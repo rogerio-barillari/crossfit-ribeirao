@@ -30,6 +30,21 @@
    #botao-principal {
       justify-content: center;
    }
+
+   #imagem-principal {
+      margin-bottom: 10px;
+      max-width: 350px !important;
+   }
+
+   #coluna-principal-1 {
+      order: 1 !important;
+
+   }
+
+   #coluna-principal-2 {
+      order: 0 !important;
+      padding: 0 !important;
+   }
    
    /* Fim da seção principal */
 
