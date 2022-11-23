@@ -97,6 +97,10 @@ body {
 
 /* Início da seção principal */
 
+#principal h1 {
+    padding-right: 8px;
+}
+
 #btn-principal {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;

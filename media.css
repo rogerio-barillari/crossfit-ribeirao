@@ -25,6 +25,7 @@
    
    #principal h1,h3 {
       text-align: center !important;
+      padding-right: 0 !important;
    }
 
    #botao-principal {
@@ -52,7 +53,7 @@
 
    #beneficios h2,h5 {
       text-align: center !important;
-      padding: 0px !important;
+      padding: 0 !important;
    }
 
    .beneficios-descricao {
